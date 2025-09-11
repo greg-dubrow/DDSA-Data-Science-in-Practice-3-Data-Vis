@@ -1,7 +1,38 @@
-1. Intro
-  What are we doing here today?
-    Theory -  , grammar of graphics
-    Stories from the field - Marc
-    Practice - Make some charts
-2. Theory
-  Charts are not just about the visual elements, text is important
+Data visualization seminar – draft outline
+
+1) Opening question – why makes charts? Why visualize data?
+•	Do an interactive poll that shows a word cloud. Idea is to get following concepts highlighted among responses, Responses can be 1-4 words.
+o	Information (examples: sports league tables, political polling charts)
+o	Insights (examples: company dashboard in real time, annual / quarterly reports)
+o	Persuasion (examples: research paper, data-driven blogs)
+
+•	Ask about visual properties of word cloud - color, size, etc (setting in audience’s mind now some concepts that will come up later)
+
+2) Kahoot or slido poll: choose most effective chart from a display of:
+•	Plain line or bar chart, no annotation, title, axes without formatting
+•	Line or bar chart with basic functional title, data legend to side
+•	Line or bar chart with descriptive title, labels in data or set up in ways to maximize information delivery, annotated points to draw attention, tell story
+•	Chart junk – 3d bar or something similar, messy
+
+Explain research behind why some viz better than others.
+
+3) Principles of data visualization – general design principles & elements
+
+4) Principles of data visualization – grammar of graphics
+
+5) Quick overview of tools used for data viz
+•	R (ggplot), Python (seaborn), Tableau, Power BI, Datawrapper, Flourish, D3, Excel
+•	Show Minard, DuBois, Nightingale, & Snow examples to show that dataviz was once ink/paint on paper
+
+6) Building an effective chart demo
+•	Live build a chart – make a bar or line plot, ask people to suggest a title and other enhancements.
+
+7) Split into groups, build chart with dataset from World Happiness Report.
+•	Groups split by preferred visualization tool? R, python, Tableau, Power BI?
+
+8) Groups present charts – presentation format:
+•	Group shows chart on screen
+•	I ask audience what insight they see in the chart
+•	Short discussion with chart group about what they intended to display vs what insights the audience took from the chart.
+
+9) Q&A
