@@ -34,315 +34,268 @@ editor: source
 --->
 ````
 
+
 <center>
 
 <h1>DDSA Data Science in Practice</h1>
-<h2>Communicating Insights with Effective Data Visualization</h2>
-</center>
-
-<br> <br> <br> <br>
-
-<h2>Gregers Kjerulf</h2>
-
-<br>
-
-<h3>18 September, 2025</h3>
-
-![](images/cphr_talk_2.png){.absolute top=260 left=710 width="65%"}
-
-##
-
-<center>
 
 <h2>Communicating Insights with Effective Data Visualization</h2>
 
 </center>
 
-<br>
-<br>
-<h3>The plan for this afternoon</h3>
-
-::: {.incremental}
-
--   [Why visualize data?](#why)
-    -   Some theory on design and the grammar of graphics 
-
--   [Successful data visualization](#success)
-    -   Marc with stories from the field
-
--   [Let's visualize some data!](#doit)
-    -   Get into groups and make some charts
-
--   [Show your work](#showit)
-    -   Data visualization insights pageant
-
--   [Who has thoughts or questions?](#who)
-
-![](images/prompt14_2025_sankey.png){.absolute top=260 left=1050 width="45%"}
-
+::: {.absolute width=442.667px height=113.333px left=32.6667px top=520px style="font-size: 64px;"}
+Gregers Kjerulf
 :::
 
+::: {.absolute width=540.667px height=123px left=30px top=630px style="font-size: 60px;"}
+18 September, 2025
+:::
+
+![](images/cphr_talk_2.png){.absolute width=1300px height=840px left=635px top=250px}
 
 
-##
+## 
 
 <center>
 
-<h1>Why Visualize Data?<h1>
+<h2>Communicating Insights with Effective Data Visualization</h2>
+
+</center>
+
+<br> <br>
+
+<h3>The plan for this afternoon</h3>
+
+::: incremental
+-   [Why visualize data?](#why)
+    -   Some theory on design and the grammar of graphics
+-   [Successful data visualization](#success)
+    -   Marc with stories from the field
+-   [Let's visualize some data!](#doit)
+    -   Get into groups and make some charts
+-   [Show your work](#showit)
+    -   Data visualization insights pageant
+-   [Who has thoughts or questions?](#who)
+
+![](images/prompt14_2025_sankey.png){.absolute top="260" left="1050" width="45%"}
+:::
+
+## 
+
+<center>
+
+<h1>
+
+Why Visualize Data?
+
+<h1>
 
 <br>
 
-<h3>Scan the QR code or go to menti.com and use the code ___________<h3>
+<h3>
+
+Scan the QR code or go to menti.com and use the code ___________
+
+<h3>
 
 *REPLACE QR on Thursday morning!!!*
 
 ![](images/mentimeter_ddsa_1.png)
 
-##
+## 
 
 <center>
-<h1>Why Visualize Data?<h1>
 
+<h1>
+
+Why Visualize Data?
+
+<h1>
 
 <h2>
-::: {style="text-align: left"}
-::: {.incremental}
 
--   *Information* 
+:::: {style="text-align: left"}
+::: incremental
+-   *Information*
 
-    - [Examples: sports league tables, political polling charts]{style="font-size:0.70em"}
-
+    -   [Examples: sports league tables, political polling charts]{style="font-size:0.70em"}
 :::
-:::
+::::
 
-::: {.fragment}
-
-![](images/epl_table_110925.png){.absolute top=450 left=50 width="55%"}
-
+::: fragment
+![](images/epl_table_110925.png){.absolute top="450" left="50" width="55%"}
 :::
 
-::: {.fragment}
+::::: fragment
+![](images/nycmayor_0925_emerson.png){.absolute top="450" left="1150" width="35%"}
 
-![](images/nycmayor_0925_emerson.png){.absolute top=450 left=1150 width="35%"}
-
-::: {.column-margin .extra-style}
-
-<div class="bottom-right-text">
-
+:::: {.column-margin .extra-style}
+::: bottom-right-text
 *image sources: https://www.premierleague.com/en/tables and https://emersoncollegepolling.com/nyc-2025-mayor/*
-
-</div>
-
 :::
-:::
+::::
+:::::
 
 <h2>
 
-
-##
-
+## 
 
 <center>
-<h1>Why Visualize Data?<h1>
 
+<h1>
+
+Why Visualize Data?
+
+<h1>
 
 <h2>
-::: {style="text-align: left"}
-::: {.incremental}
 
--   *Insights* 
-    - [Examples: company dashboard in real time, annual / quarterly reports]{style="font-size:0.75em"}
-
-
+:::: {style="text-align: left"}
+::: incremental
+-   *Insights*
+    -   [Examples: company dashboard in real time, annual / quarterly reports]{style="font-size:0.75em"}
 :::
-:::
-::: {.fragment}
+::::
 
-![](images/statistiksdk_dash_econ.png){.absolute top=360 left=100 width="50%"}
+::::: fragment
+![](images/statistiksdk_dash_econ.png){.absolute top="360" left="100" width="50%"}
 
-::: {.column-margin .extra-style}
-
-<div class="bottom-right-text">
-
+:::: {.column-margin .extra-style}
+::: bottom-right-text
 *image source: https://www.dst.dk/en/Statistik/temaer/overblik-dansk-oekonomi retrieved 11/09/2025*
-
-</div>
-
 :::
-:::
+::::
+:::::
 
-##
+## 
 
 <center>
-<h1>Why Visualize Data?<h1>
+
+<h1>
+
+Why Visualize Data?
+
+<h1>
+
 </center>
 
 <h2>
-::: {style="text-align: left"}
-::: {.incremental}
 
+:::: {style="text-align: left"}
+::: incremental
 -   *Persuasion*
-    - [Examples: research papers, data-driven blogs]{style="font-size:0.75em"} 
-
+    -   [Examples: research papers, data-driven blogs]{style="font-size:0.75em"}
 :::
-:::
-::: {.fragment}
+::::
 
-![](images/nrennie_30day2025_day_14.png){.absolute top=360 left=100 width="50%"}
+::::: fragment
+![](images/nrennie_30day2025_day_14.png){.absolute top="360" left="100" width="50%"}
 
-::: {.column-margin .extra-style}
-
-<div class="bottom-right-text">
-
+:::: {.column-margin .extra-style}
+::: bottom-right-text
 *image source: https://github.com/nrennie/30DayChartChallenge/tree/main/2025#day-14-kinship-made-with-r*
-
-</div>
-
 :::
-:::
+::::
+:::::
 
-##
+## 
 
 Let's go back to that word cloud we created....
 
 What are the visual properties you see in the word cloud?
 
-
-##
+## 
 
 choose most effective chart from a display of:
 
-•	Plain line or bar chart, no annotation, title, axes without formatting
+• Plain line or bar chart, no annotation, title, axes without formatting
 
-•	Line or bar chart with basic functional title, data legend to side
+• Line or bar chart with basic functional title, data legend to side
 
-•	Line or bar chart with descriptive title, labels in data or set up in ways to maximize information delivery, annotated points to draw attention, tell story
+• Line or bar chart with descriptive title, labels in data or set up in ways to maximize information delivery, annotated points to draw attention, tell story
 
-•	Chart junk – 3d bar or something similar, messy
+• Chart junk – 3d bar or something similar, messy
 
-##
+## 
 
 Grammar of graphics
 
-
-##
-
+## 
 
 Data Visualization tools slide 1
 
 It used to be ink and paper
 
-
-::: columns 
-::: {.column width="55%" .fragment}
-:::{style="text-align:center;"}
-
+:::::::: columns
+::::: {.column .fragment width="55%"}
+::: {style="text-align:center;"}
 ![WEB DuBois infographics from Paris Expo](images/dubois-infographics.jpg){width="78%"}
 :::
 
-
-:::{style="text-align:center;"  .fragment}
+::: {.fragment style="text-align:center;"}
 ![Florence Nightingale rose plot](images/nighingale_rose.jpg){width="68%"}
 :::
-:::
+:::::
 
-
-::: {.column width="45%" .fragment}
-:::{style="text-align:center;"}
-
-<br>
-<br>
+:::: {.column .fragment width="45%"}
+::: {style="text-align:center;"}
+<br> <br>
 
 ![John Snow cholera map](images/Snow-cholera-map-1.jpg){width="80%"}
+:::
+::::
+::::::::
 
-:::
-:::
-:::
-
-##
+## 
 
 Now there are tons of tools
 
-
-:::{.fragment}
-
-![](images/r_shiny.jpg){.absolute top=110 left=270 width="25%"}
+::: fragment
+![](images/r_shiny.jpg){.absolute top="110" left="270" width="25%"}
 :::
 
-
-:::{.fragment}
-
-![](images/quarto2.jpg){.absolute top=317 left=270 width="23%"}
-
+::: fragment
+![](images/quarto2.jpg){.absolute top="317" left="270" width="23%"}
 :::
 
-
-:::{.fragment}
-
-![](images/python_streamlit.jpg){.absolute top=560 left=270 width="23%"}
-
+::: fragment
+![](images/python_streamlit.jpg){.absolute top="560" left="270" width="23%"}
 :::
 
-
-:::{.fragment}
-
-![](images/tableau1.jpg){.absolute top=110 left=840 width="41%"}
-
+::: fragment
+![](images/tableau1.jpg){.absolute top="110" left="840" width="41%"}
 :::
 
-
-:::{.fragment}
-
-![](images/power_bi.jpg){.absolute top=330 left=840 width="20%"}
-
+::: fragment
+![](images/power_bi.jpg){.absolute top="330" left="840" width="20%"}
 :::
 
-
-:::{.fragment}
-
-
-![](images/d3.jpg){.absolute top=330 left=1245 width="20%"}
-
+::: fragment
+![](images/d3.jpg){.absolute top="330" left="1245" width="20%"}
 :::
 
-
-:::{.fragment}
-
-
-![](images/datawrapper.jpg){.absolute top=800 left=270 width="25%"}
-
-
+::: fragment
+![](images/datawrapper.jpg){.absolute top="800" left="270" width="25%"}
 :::
 
-
-:::{.fragment}
-
-![](images/datawRappr.png){.absolute top=770 left=890 width="15%"}
-
+::: fragment
+![](images/datawRappr.png){.absolute top="770" left="890" width="15%"}
 :::
 
-
-:::{.fragment}
-
-![](images/observable.png){.absolute top=1010 left=270 width="25%"}
-
+::: fragment
+![](images/observable.png){.absolute top="1010" left="270" width="25%"}
 :::
 
-
-:::{.fragment}
-
-![](images/observable_quarto.png){.absolute top=790 left=1230 width="20%"}
-
+::: fragment
+![](images/observable_quarto.png){.absolute top="790" left="1230" width="20%"}
 :::
 
-
-##
+## 
 
 Time to make data groups
 
 Divide by preferred tool and level of expertise
 
-Data source: World Happiness Report
-Explain key variables
+Data source: World Happiness Report Explain key variables
 
 Make whatever type of charts you want to visualize what you think are key elements

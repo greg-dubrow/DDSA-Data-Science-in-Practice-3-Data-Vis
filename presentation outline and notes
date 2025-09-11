@@ -36,3 +36,12 @@ Explain research behind why some viz better than others.
 •	Short discussion with chart group about what they intended to display vs what insights the audience took from the chart.
 
 9) Q&A
+
+
+###
+formatting notes
+
+use {.editable} for image & text
+https://github.com/EmilHvitfeldt/quarto-revealjs-editable/tree/main
+
+divide h / w of pic to get ratio, use that after editable resize
