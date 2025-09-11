@@ -15,6 +15,10 @@ format:
     code-line-numbers: false
     height: 1080
     width: 1920
+revealjs-plugins: 
+  - editable
+filters: 
+  - editable
 editor: source
 ---
 
