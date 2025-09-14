@@ -2,3 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
+.httr-oauth
+.Rprofile
+whr_data_prep.R
+data
+/data
+data/*.rds
+data/*.xlsx

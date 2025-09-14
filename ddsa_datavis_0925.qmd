@@ -84,19 +84,11 @@ Gregers Kjerulf
 
 <center>
 
-<h1>
-
-Why Visualize Data?
-
-<h1>
+<h1>Why Visualize Data?</h1>
 
 <br>
 
-<h3>
-
-Scan the QR code or go to menti.com and use the code ___________
-
-<h3>
+<h3>Scan the QR code or go to menti.com and use the code ___________</h3>
 
 *REPLACE QR on Thursday morning!!!*
 
@@ -105,12 +97,8 @@ Scan the QR code or go to menti.com and use the code ___________
 ## 
 
 <center>
-
-<h1>
-
-Why Visualize Data?
-
-<h1>
+<h1>Why Visualize Data?<h1>
+</center>
 
 <h2>
 
@@ -136,17 +124,15 @@ Why Visualize Data?
 ::::
 :::::
 
-<h2>
+</h2>
 
 ## 
 
 <center>
 
-<h1>
+<h1>Why Visualize Data?</h1>
 
-Why Visualize Data?
-
-<h1>
+</center>
 
 <h2>
 
@@ -166,37 +152,34 @@ Why Visualize Data?
 :::
 ::::
 :::::
+</h2>
 
 ## 
 
 <center>
 
-<h1>
-
-Why Visualize Data?
-
-<h1>
+<h1>Why Visualize Data?</h1>
 
 </center>
 
 <h2>
 
-:::: {style="text-align: left"}
+::: {style="text-align: left"}
 ::: incremental
 -   *Persuasion*
     -   [Examples: research papers, data-driven blogs]{style="font-size:0.75em"}
 :::
 ::::
 
-::::: fragment
+::: fragment
 ![](images/nrennie_30day2025_day_14.png){.absolute top="360" left="100" width="50%"}
 
-:::: {.column-margin .extra-style}
+::: {.column-margin .extra-style}
 ::: bottom-right-text
 *image source: https://github.com/nrennie/30DayChartChallenge/tree/main/2025#day-14-kinship-made-with-r*
 :::
-::::
-:::::
+:::
+:::
 
 ## 
 
@@ -218,22 +201,143 @@ choose most effective chart from a display of:
 
 ## 
 
-Grammar of graphics
+<center>
+
+<h1> Data Viz Theory Time! <h1> </center>
+
+:::{.fragment}
+
+::: {.absolute width=1245.38px height=103.35px left=40px top=202px style="font-size: 42px;"}
+<h2> Let’s talk about the *Grammar of graphics* </h2>
+:::
+:::
+
+:::{.fragment}
+::: {.absolute width=492.8px height=66.2644px left=40px top=354.33px style="font-size: 44px;"}
+<h3> What is grammar? </h3>
+:::
+:::
+
+:::{.fragment}
+::: {.absolute width=1445.69px height=226.198px left=118px top=446.755px style="font-size: 50px;"}
+*The whole system and structure of a language or of languages in general, usually taken as consisting of syntax and morphology (including inflections) and sometimes also phonology and semantics.*
+:::
+::: {.absolute width=1445.69px height=226.198px left=118px top=645px style="font-size: 24px;"}
+*Source: Oxford Languages via google*
+:::
+:::
+
+:::{.fragment}
+::: {.absolute width=1245.38px height=103.35px left=40px top=735px style="font-size: 44px;"}
+<h3>How we structure what we want to communicate.</h3>
+:::
+:::
 
 ## 
 
-Data Visualization tools slide 1
 
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.fragment}
+::: {.absolute width=1400px height=103.35px left=40px top=200px}
+<h2>Ok, so how does that apply to data visualization?</h2>
+:::
+:::
+
+::: {.fragment}
+::: {.absolute width=997.7px height=167.089px left=40px top=300px style="font-size: 52px;"}
+It is a framework to describe the elements of a data graphic and guides our design choices.
+:::
+:::
+
+::: {.fragment}
+::: {.absolute width=997.7px height=167.089px left=40px top=490px style="font-size: 52px;"}
+How we structure the data we want to communicate visually.
+:::
+:::
+
+::: {.fragment}
+::: {.absolute width=983.122px height=154.599px left=40px top=680px style="font-size: 52px;"}
+Original concept by Leland Wilkinson, in his book, *The Grammar of Graphics*.
+:::
+
+
+::: {.absolute width=550px height=428.78px left=1166.7px top=300px}
+<img src="images/grammarofgraphics_cover.jpg" data-lazy-loaded="">
+:::
+:::
+
+##
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.absolute left=40px top=200px}
+<h2>Great, so what are the elements?</h2>
+:::
+
+::: incremental
+::: {.absolute left=150px top=260px}
+<h2>
+-   Data
+-   Aesthetics
+-   Scale
+-   Geometric Objects
+-   Statistics
+-   Facets
+-   Coordinate system
+</h2>
+:::
+:::
+
+##
+<center>
+
+<h1>How do we Visualize Data?</h1>
+
+</center>
+
+::: {.fragment}
+<h2>
+It used to be ink and paper...
+</h2>
+:::
+
+::: {.fragment}
+![](images/Minard.png){width="90%}
+
+::: {.absolute width=1691.87px height=71.6504px left=-400px top=1020px style="font-size: 28px; text-align: right;"}
+*Charles Joseph Minard - Map of successive losses of men of the French Army in the Russian campaign 1812-1813*
+::: 
+:::
+
+##
+
+
+<center>
+
+<h1>
+How do we Visualize Data?
+</h1>
+
+</center>
+
+<h3>
 It used to be ink and paper
+</h3>
+
 
 :::::::: columns
 ::::: {.column .fragment width="55%"}
 ::: {style="text-align:center;"}
-![WEB DuBois infographics from Paris Expo](images/dubois-infographics.jpg){width="78%"}
+![*WEB DuBois infographics from Paris Expo*](images/dubois-infographics.jpg){width="78%"}
 :::
 
 ::: {.fragment style="text-align:center;"}
-![Florence Nightingale rose plot](images/nighingale_rose.jpg){width="68%"}
+![*Florence Nightingale rose plot*](images/nighingale_rose.jpg){width="68%"}
 :::
 :::::
 
@@ -241,7 +345,7 @@ It used to be ink and paper
 ::: {style="text-align:center;"}
 <br> <br>
 
-![John Snow cholera map](images/Snow-cholera-map-1.jpg){width="80%"}
+![*John Snow cholera map*](images/Snow-cholera-map-1.jpg){width="80%"}
 :::
 ::::
 ::::::::
