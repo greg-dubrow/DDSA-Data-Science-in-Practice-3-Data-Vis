@@ -275,16 +275,16 @@ Original concept by Leland Wilkinson, in his book, *The Grammar of Graphics*.
 <h1>The Grammar of graphics<h1>
 </center>
 
-::: {.absolute left=40px top=200px}
+::: {.absolute left=40px top=190px}
 <h2>Great, so what are the elements?</h2>
 :::
 
 ::: incremental
-::: {.absolute left=150px top=260px}
+::: {.absolute left=140px top=250px}
 <h2>
 -   Data
 -   Aesthetics
--   Scale
+-   Scale 
 -   Geometric Objects
 -   Statistics
 -   Facets
@@ -292,6 +292,126 @@ Original concept by Leland Wilkinson, in his book, *The Grammar of Graphics*.
 </h2>
 :::
 :::
+
+
+##
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.absolute left=40px top=190px}
+<h2>Data</h2>
+:::
+
+::: {.absolute left=140px top=275px}
+<h2>What are we going to display?</h2>
+:::
+
+![](images/whrdatata_glimpse.png){.absolute top=360 left=140 width="65%"}
+
+
+##
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.absolute left=40px top=190px}
+<h2>Aesthetics</h2>
+:::
+
+::: {.absolute width=800px height=300px left=40px top=300px style="font-size: 38px;"}
+<h2>
+How do we display the data using color, size, and other visual elements including axes, plot elements, title, legend, etc.
+</h2>
+:::
+
+::: {.absolute width=1200px height=1000px left=828.758px top=293.02px}
+<img style="width:85.0%" src="images/g_of_g_aesthetics.png" data-lazy-loaded="">
+:::
+
+##
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.absolute left=40px top=190px}
+<h2>Scale</h2>
+:::
+
+::: {.absolute width=750px height=300px left=40px top=300px style="font-size: 38px;"}
+<h2>
+How do we display the data in relation to an objective point and/or in relation to the data points themselves?
+</h2>
+:::
+
+::: {.absolute width=1200px height=1000px left=828.758px top=293.02px}
+<img style="width:85.0%" src="images/g_of_g_scale.png" data-lazy-loaded="">
+:::
+
+##
+
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.absolute left=40px top=190px}
+<h2>Scale</h2>
+:::
+
+::: {.absolute left=40px top=300px style="font-size: 38px;"}
+<h2>
+Why are the limits of your scales important?
+</h2>
+:::
+
+::: columns 
+::: {.column width="33%"}
+![](images/g_of_g_scale1.png){.absolute left=40px top=420px width="32%"}
+:::
+
+::: {.column width="33%"}
+![](images/g_of_g_scale2.png){.absolute left=670px top=420px width="32%"}
+:::
+
+::: {.column width="33%"}
+![](images/g_of_g_scale3.png){.absolute left=1295px top=420px width="32%"}
+:::
+
+:::
+
+##
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+::: {.absolute left=40px top=190px}
+<h2>Geometric objects</h2>
+:::
+
+::: {.absolute left=140px top=275px}
+<h2>What type & shapes of marks do we use?</h2>
+:::
+
+![](images/gosta_tempo_scatter.png){.absolute top=360 left=140 width="70%"}
+
+::: {.absolute left=140px top=1040px style="font-size: 24px;"}
+*Source: https://www.gregdubrow.io/2021/02/27/sad-songs-pretty-charts-a-gosta-berling-music-data-visualization/*
+:::
+
+##
+
+##
+
+<center>
+<h1>The Grammar of graphics<h1>
+</center>
+
+Statistics - use bike regression with vis of residuals
 
 ##
 <center>
