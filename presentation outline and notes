@@ -45,3 +45,6 @@ use {.editable} for image & text
 https://github.com/EmilHvitfeldt/quarto-revealjs-editable/tree/main
 
 divide h / w of pic to get ratio, use that after editable resize
+
+
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Elephant_Diversity.jpg/1920px-Elephant_Diversity.jpg){width="30%"}](https://en.wikipedia.org/wiki/Elephant)

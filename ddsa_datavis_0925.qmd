@@ -35,11 +35,9 @@ editor: source
 ````
 
 <center>
-
 <h1>DDSA Data Science in Practice</h1>
 
 <h2>Communicating Insights with Effective Data Visualization</h2>
-
 </center>
 
 ::: {.absolute width="490px" height="113.333px" left="32.6667px" top="500px" style="font-size: 64px;"}
@@ -57,16 +55,20 @@ Marc Schønwandt
 ## 
 
 <center>
+<h1>DDSA Data Science in Practice</h1>
 
 <h2>Communicating Insights with Effective Data Visualization</h2>
-
 </center>
 
 <br> <br>
 
+::: {.absolute left="30px" top="280px"}
 <h3>The plan for this afternoon</h3>
+:::
 
+::: {.absolute left="30px" top="340px"}
 ::: incremental
+
 -   [Why visualize data?](#why)
     -   Some theory on design and the grammar of graphics
 -   [Successful data visualization](#success)
@@ -77,8 +79,11 @@ Marc Schønwandt
     -   Data visualization insights pageant
 -   [Who has thoughts or questions?](#who)
 
-![](images/prompt14_2025_sankey.png){.absolute top="260" left="1040" width="48%"}
 :::
+:::
+
+![](images/prompt14_2025_sankey.png){.absolute top="340" left="1030" width="48%"}
+
 
 ## 
 
@@ -99,9 +104,7 @@ Marc Schønwandt
 <center>
 
 <h1>
-
 Why Visualize Data?
-
 <h1>
 
 </center>
@@ -120,54 +123,45 @@ Why Visualize Data?
 ![](images/epl_table_110925.png){.absolute top="400" left="50" width="58%"}
 :::
 
-::: fragment
+:::: fragment
 ![](images/nycmayor_0925_emerson.png){.absolute top="400" left="1180" width="35%"}
 
 ::: {.absolute left="50px" top="1040px" style="font-size: 24px;"}
 *image sources: https://www.premierleague.com/en/tables and https://emersoncollegepolling.com/nyc-2025-mayor/*
 :::
-
-
-:::
+::::
 
 </h2>
 
 ## 
 
 <center>
-
 <h1>Why Visualize Data?</h1>
-
 </center>
 
 <h2>
 
-::: {style="text-align: left"}
+:::: {style="text-align: left"}
 ::: incremental
 -   *Insights*
     -   [Examples: company dashboard in real time, annual / quarterly reports]{style="font-size:0.75em"}
-
 :::
-:::
+::::
 
 </h2>
 
-::: fragment
+:::: fragment
 ![](images/statistiksdk_dash_econ.png){.absolute top="360" left="110" width="50%"}
 
 ::: {.absolute left="110px" top="1090px" style="font-size: 24px;"}
 *image source: https://www.dst.dk/en/Statistik/temaer/overblik-dansk-oekonomi retrieved 11/09/2025*
 :::
-
-:::
-
+::::
 
 ## 
 
 <center>
-
 <h1>Why Visualize Data?</h1>
-
 </center>
 
 <h2>
@@ -179,49 +173,49 @@ Why Visualize Data?
 :::
 ::::
 
-::::: fragment
+:::: fragment
 ![](images/nrennie_30day2025_day_14.png){.absolute top="360" left="110" width="50%"}
 
 ::: {.absolute left="110px" top="1090px" style="font-size: 24px;"}
 *image source: https://github.com/nrennie/30DayChartChallenge/tree/main/2025#day-14-kinship-made-with-r*
 :::
-:::
+::::
 
 ## 
 
 <center>
+
 <h1>What do we see in visualized data?</h1>
+
 </center>
 
-::: {.absolute left="40px" top="200px"}
+::: {.absolute left="40px" top="175px"}
 <h2>Let's go back to that word cloud we created...</h2>
 :::
 
-::: fragment
-::: {.absolute left="40px" top="300px"}
+::::: fragment
+:::: {.absolute left="140px" top="280px" width="70%"}
+::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="615" src="https://www.mentimeter.com/app/presentation/aln18p4uebgvvtbndoj2x4gutvs4ykd9/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
 
-put word cloud image here
+</iframe>
 :::
-:::
+::::
+:::::
 
-::: fragment
-::: {.absolute left="40px" top="900px"}
+:::: fragment
+::: {.absolute left="40px" top="1050px"}
 <h2>What are the visual properties you see in the word cloud?</h2>
 :::
-::: 
-
-
+::::
 
 ## 
 
-
 <center>
-
 <h1>Data Viz Theory Time!</h1>
-
 </center>
 
-::: fragment
+:::: fragment
 ::: {.absolute width="1245.38px" height="103.35px" left="40px" top="202px" style="font-size: 42px;"}
 <h2>Let’s talk about the *Grammar of graphics*</h2>
 :::
@@ -252,9 +246,7 @@ put word cloud image here
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 :::: fragment
@@ -304,7 +296,6 @@ The Grammar of graphics
 :::: incremental
 ::: {.absolute left="140px" top="250px"}
 <h2>
-
 -   Data
 -   Aesthetics
 -   Scale
@@ -348,7 +339,14 @@ The Grammar of graphics
 :::
 
 ::: {.absolute width="800px" height="300px" left="40px" top="300px" style="font-size: 38px;"}
-<h2>How do we display the data using color, size, and other visual elements including axes, plot elements, title, legend, etc.</h2>
+<h2>
+How we display the data using visual elements<br>such as: <br>
+* color<br>
+* size<br>
+* axes<br>
+* title<br>
+* legend <br>
+* annotation text </h2>
 :::
 
 ::: {.absolute width="1200px" height="1000px" left="828.758px" top="293.02px"}
@@ -496,14 +494,14 @@ The Grammar of graphics
 :::
 
 ::: {.absolute left="140px" top="375px"}
-<h3>Cartesian – Each point at a spot identified by the axes</h3>
+<h3>Cartesian: Each point at a spot identified by the axes</h3>
 :::
 
 ![](images/gosta_tempo_scatter.png){.absolute top="460" left="140" width="45%"}
 
 ![](images/g_of_g_aesthetics.png){.absolute top="460" left="1020" width="45%"}
 
-##
+## 
 
 <center>
 
@@ -520,12 +518,13 @@ The Grammar of graphics
 :::
 
 ::: {.absolute width="700px" height="300px" left="140px" top="370px"}
-<h3>Mapping – Each point at a spot identified by the axes within defined boundaries.</h3>
+<h3>Mapping:<br>
+Each point at a spot identified by the axes within defined boundaries.</h3>
 :::
 
 ![](images/ssgi1219_crowflies.png){.absolute top="370" left="890" width="40%"}
 
-##
+## 
 
 <center>
 
@@ -545,7 +544,6 @@ The Grammar of graphics
 :::
 ::::
 
-
 ## 
 
 <center>
@@ -554,32 +552,31 @@ The Grammar of graphics
 
 </center>
 
-<h3>It used to be ink and paper</h3>
+<h2>It used to be ink and paper...</h2>
 
-
-::: fragment
+:::: fragment
 ![](images/dubois-infographics.jpg){.absolute top="200" left="105" width="42%"}
 
 ::: {.absolute left="105px" top="550px" style="font-size: 32px;"}
 *WEB DuBois infographics from Paris Expo*
 :::
-:::
+::::
 
-::: fragment
+:::: fragment
 ![](images/nighingale_rose.jpg){.absolute top="610" left="145" width="38%"}
 
 ::: {.absolute left="145px" top="1075px" style="font-size: 32px;"}
 *Florence Nightingale rose plot*
 :::
-:::
+::::
 
-::: fragment
+:::: fragment
 ![](images/Snow-cholera-map-1.jpg){.absolute top="290" left="1070" width="40%"}
 
 ::: {.absolute left="1070px" top="1020px" style="font-size: 32px;"}
 *John Snow cholera map*
 :::
-:::
+::::
 
 ## 
 
@@ -621,57 +618,136 @@ The Grammar of graphics
 ![](images/observable.png){.absolute top="1010" left="270" width="25%"}
 :::
 
-
 ::: fragment
 ![](images/looker.jpg){.absolute top="770" left="890" width="15%"}
 :::
-
 
 ::: fragment
 ![](images/excel.png){.absolute top="790" left="1270" width="17%"}
 :::
 
-##
+## 
 
 <center>
+
 <h1>For inspiration! Data Visualization Resources</h1>
+
 </center>
 
 ::: fragment
 ![](images/colin_ware_visualthinking.jpg){.absolute top="130" left="190" width="20%"}
-
 :::
 
 ::: fragment
-
 ![](images/tuftebooks_stacked.jpeg){.absolute top="130" left="670" width="30%"}
 :::
 
 ::: fragment
 ![](images/grammarofgraphics_cover.jpg){.absolute top="130" left="1330" width="20%"}
-
 :::
 
 ::: fragment
 ![](images/swd_books.png){.absolute top="670" left="170" width="30%"}
-
 :::
 
 ::: fragment
-![](images/healy datavizbook.jpeg){.absolute top="620" left="840" width="20%"}
+![](images/healy%20datavizbook.jpeg){.absolute top="620" left="840" width="20%"}
 :::
 
 ::: fragment
 ![](images/visualize_this_nathan_yau.jpg){.absolute top="730" left="1330" width="20%"}
-
 :::
 
 ## 
 
-Time to make data groups
+<center>
 
-Divide by preferred tool and level of expertise
+<h1>Data Visualization Success Stories</h1>
+<h1>with Marc Schønwandt</h1>
 
-Data source: World Happiness Report Explain key variables
+</center>
 
-Make whatever type of charts you want to visualize what you think are key elements
+
+## 
+
+<center>
+
+<h1>Let's Get Creating!</h1>
+
+</center>
+
+<h2>
+
+-   Divide by preferred tool and level of expertise
+
+-   Data source: World Happiness Report
+
+</h2>
+
+![](images/whrdatata_glimpse.png){.absolute width="1000px" height="533px" top="375" left="100"}
+
+:::: fragment
+::: {.absolute left="1200px" top="410px"}
+<h3>Bar chart?</h3>
+:::
+::::
+
+:::: fragment
+::: {.absolute left="1200px" top="510px"}
+<h3>Scatter plot?</h3>
+:::
+::::
+
+:::: fragment
+::: {.absolute left="1200px" top="610px"}
+<h3>Time series?</h3>
+:::
+::::
+
+:::: fragment
+::: {.absolute left="1200px" top="710px"}
+<h3>Map?</h3>
+:::
+::::
+
+:::: fragment
+::: {.absolute left="1200px" top="810px"}
+<h3>Something else?</h3>
+:::
+::::
+
+:::: fragment
+::: {.absolute left="100px" top="950px"}
+<h3>Create a visualization to communicate noteworthy insights from the data.</h3>
+:::
+::::
+
+
+## 
+
+<center><h1> What thoughts or questions do you have? </h1></center>
+
+
+::: {.absolute top="200" left="500"}
+![](images/potato_nugget_chair.jpg){width="65%" fig-alt="a tuxedo cat and a grey tabby sit under a ddining table waiting for food"}
+:::
+
+## 
+
+## 
+
+<center>
+
+<h1>Thank You!</h1>
+
+</center>
+
+<h2>Keep in touch:</h2> 
+
+<h2>**Marc**</h2>
+<br>
+<h2>**Gregers**</h2>
+<h2> {{< fa laptop >}}&nbsp; &nbsp;[gregdubrow.io/](https://www.gregdubrow.io)</h2>
+<h2> {{< fa brands github >}} &nbsp; &nbsp;[github.com/greg-dubrow](https://github.com/greg-dubrow)</h2>
+<h2> {{< fa brands linkedin >}} &nbsp; &nbsp; [linkedin.com/in/dubrowg](https://www.linkedin.com/in/dubrowg/)</h2>
+<h2> {{< fa brands bluesky >}} &nbsp; &nbsp;[bsky.app/profile/gregerskjerulf.bsky.social](https://bsky.app/profile/gregerskjerulf.bsky.social) </h2>
