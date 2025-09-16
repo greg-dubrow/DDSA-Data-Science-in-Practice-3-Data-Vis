@@ -88,16 +88,26 @@ Marc Schønwandt
 ## 
 
 <center>
-
 <h1>Why Visualize Data?</h1>
-
-<br>
+</center>
 
 <h3>Scan the QR code or go to menti.com and use the code \_\_\_\_\_\_\_\_\_\_\_</h3>
 
-*REPLACE QR on Thursday morning!!!*
+*REPLACE QR & embed link on Thursday morning!!!*
 
+::: {.absolute left="1400px" top="270px" width="70%"}
 ![](images/mentimeter_ddsa_1.png)
+:::
+
+:::: {.absolute left="80px" top="280px" width="70%"}
+::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="615" src="https://www.mentimeter.com/app/presentation/aln18p4uebgvvtbndoj2x4gutvs4ykd9/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+
+</iframe>
+:::
+::::
+
+
 
 ## 
 
@@ -280,13 +290,7 @@ Original concept by Leland Wilkinson, in his book, *The Grammar of Graphics*.
 ## 
 
 <center>
-
-<h1>
-
-The Grammar of graphics
-
-<h1>
-
+<h1>The Grammar of graphics</h1>
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -311,9 +315,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -329,9 +331,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -356,13 +356,7 @@ How we display the data using visual elements<br>such as: <br>
 ## 
 
 <center>
-
-<h1>
-
-The Grammar of graphics
-
-<h1>
-
+<h1>The Grammar of graphics</h1>
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -380,9 +374,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -410,9 +402,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -434,9 +424,7 @@ The Grammar of graphics
 <center>
 
 <h1>
-
 The Grammar of graphics
-
 <h1>
 
 </center>
@@ -458,9 +446,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -480,9 +466,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -504,9 +488,7 @@ The Grammar of graphics
 ## 
 
 <center>
-
 <h1>The Grammar of graphics</h1>
-
 </center>
 
 ::: {.absolute left="40px" top="190px"}
@@ -527,9 +509,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 ## 
 
 <center>
-
 <h1>Tools of the Trade</h1>
-
 </center>
 
 ::: fragment
@@ -547,9 +527,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 ## 
 
 <center>
-
 <h1>Tools of the Trade</h1>
-
 </center>
 
 <h2>It used to be ink and paper...</h2>
@@ -581,9 +559,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 ## 
 
 <center>
-
 <h1>Tools of the Trade</h1>
-
 </center>
 
 ::: fragment
@@ -629,9 +605,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 ## 
 
 <center>
-
 <h1>For inspiration! Data Visualization Resources</h1>
-
 </center>
 
 ::: fragment
@@ -671,9 +645,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 ## 
 
 <center>
-
 <h1>Let's Get Creating!</h1>
-
 </center>
 
 <h2>
@@ -725,7 +697,9 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 
 ## 
 
-<center><h1> What thoughts or questions do you have? </h1></center>
+<center>
+<h1> What thoughts or questions do you have? </h1>
+</center>
 
 
 ::: {.absolute top="200" left="500"}
@@ -737,9 +711,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 ## 
 
 <center>
-
 <h1>Thank You!</h1>
-
 </center>
 
 <h2>Keep in touch:</h2> 
