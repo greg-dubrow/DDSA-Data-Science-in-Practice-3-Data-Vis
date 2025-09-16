@@ -10,4 +10,5 @@ data
 /data
 data/*.rds
 data/*.xlsx
-.DS_Store
+*.DS_Store
+.Rprofile
