@@ -338,18 +338,19 @@ Original concept by Leland Wilkinson, in his book, *The Grammar of Graphics*.
 <h2>Aesthetics</h2>
 :::
 
-::: {.absolute width="800px" height="300px" left="40px" top="300px" style="font-size: 38px;"}
+::: {.absolute left="40px" top="300px" style="font-size: 38px;"}
+
 <h2>
-How we display the data using visual elements<br>such as: <br>
-* color<br>
-* size<br>
-* axes<br>
-* title<br>
-* legend <br>
-* annotation text </h2>
+How we display the data using <br>visual elements such as: <br>
+&emsp;- color<br>
+&emsp;- size<br>
+&emsp;- axes<br>
+&emsp;- title<br>
+&emsp;- legend <br>
+&emsp;- annotation text </h2>
 :::
 
-::: {.absolute width="1200px" height="1000px" left="828.758px" top="293.02px"}
+::: {.absolute width="1200px" height="1000px" left="850px" top="293.02px"}
 <img src="images/g_of_g_aesthetics.png" style="width:85.0%"/>
 :::
 
