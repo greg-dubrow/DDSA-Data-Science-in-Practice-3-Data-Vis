@@ -91,23 +91,22 @@ Marc Schønwandt
 <h1>Why Visualize Data?</h1>
 </center>
 
-<h3>Scan the QR code or go to menti.com and use the code \_\_\_\_\_\_\_\_\_\_\_</h3>
+<h3>Scan the QR code or go to menti.com and use the code 5644 1419</h3>
 
-*REPLACE QR & embed link on Thursday morning!!!*
 
-::: {.absolute left="1400px" top="270px" width="70%"}
+::: {.absolute left="1400px" top="270px" width="20%"}
 ![](images/mentimeter_ddsa_1.png)
 :::
 
+:::fragment
 :::: {.absolute left="80px" top="280px" width="70%"}
 ::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
-<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="615" src="https://www.mentimeter.com/app/presentation/aln18p4uebgvvtbndoj2x4gutvs4ykd9/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="615" src="https://www.mentimeter.com/app/presentation/al521m6p7435qtf5yrkiogsvu94cepto/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
 
 </iframe>
 :::
 ::::
-
-
+:::
 
 ## 
 
@@ -130,7 +129,7 @@ Why Visualize Data?
 ::::
 
 ::: fragment
-![](images/epl_table_110925.png){.absolute top="400" left="50" width="58%"}
+![](images/epl_table_180925.png){.absolute top="400" left="50" width="58%"}
 :::
 
 :::: fragment
@@ -206,12 +205,13 @@ Why Visualize Data?
 ::::: fragment
 :::: {.absolute left="140px" top="280px" width="70%"}
 ::: {style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;"}
-<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="615" src="https://www.mentimeter.com/app/presentation/aln18p4uebgvvtbndoj2x4gutvs4ykd9/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
+<iframe sandbox="allow-scripts allow-same-origin allow-presentation" allowfullscreen="true" allowtransparency="true" frameborder="0" height="615" src="https://www.mentimeter.com/app/presentation/al521m6p7435qtf5yrkiogsvu94cepto/embed" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" width="420">
 
 </iframe>
 :::
 ::::
 :::::
+
 
 :::: fragment
 ::: {.absolute left="40px" top="1050px"}
@@ -709,8 +709,6 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 
 ## 
 
-## 
-
 <center>
 <h1>Thank You!</h1>
 </center>
@@ -720,6 +718,7 @@ Each point at a spot identified by the axes within defined boundaries.</h3>
 <h2>**Marc**</h2>
 <h2> {{< fa brands linkedin >}} &nbsp; &nbsp; 
 [https://www.linkedin.com/in/marcschonwandt/](https://www.linkedin.com/in/marcschonwandt/)
+<br>
 <br>
 <h2>**Gregers**</h2>
 <h2> {{< fa laptop >}}&nbsp; &nbsp;[gregdubrow.io/](https://www.gregdubrow.io)</h2>
