@@ -351,7 +351,7 @@ How we display the data using <br>visual elements such as: <br>
 :::
 
 ::: {.absolute width="1200px" height="1000px" left="850px" top="293.02px"}
-<img src="images/g_of_g_aesthetics.png" style="width:85.0%"/>
+<img src="images/nrennie_30day2025_day_14.png" style="width:85.0%"/>
 :::
 
 ## 
